@@ -1,0 +1,32 @@
+<%- include('./_header'); %>
+
+<!-- START CENTERED WHITE CONTAINER -->
+
+<p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">
+    Bonjour,
+</p>
+<p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">
+    Votre réservation a été enregistrée avec succès ! Les détails sont ci-après.
+</p>
+<p>
+    Chambre choisie: <%= user.room %>. <br>
+    Date d'arrivée: <%= user.checkin %>. <br>
+    Date de départ: <%= user.checkout %>. <br>
+    Nombre d'adultes: <%= user.adults %>. <br>
+    Nombre d'enfants: <%= user.children %>.
+</p>
+
+<p>
+    Merci de faire confiance à Ganna Hotel.
+</p>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<!-- END MAIN CONTENT AREA -->
+</table>
+
+<%- include('./_footer'); %>
